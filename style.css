@@ -17,8 +17,8 @@ li {
 body {
   background: linear-gradient(101.07deg, #2e3c87 7.93%, #6a1094 93.3%);
   font-family: "Ubuntu", sans-serif;
-
   display: flex;
+  justify-content: center;
 }
 
 .container {
