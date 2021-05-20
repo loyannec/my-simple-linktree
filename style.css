@@ -42,6 +42,10 @@ body {
 .container .profile {
     width: 104px;
     margin-bottom: 20px;
+    height: 104px;
+    border-radius: 50%;
+    object-fit: cover;
+    z-index: 99;
 }
 
 .container h2 {
