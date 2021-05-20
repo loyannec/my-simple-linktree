@@ -106,7 +106,7 @@
             },
             move: {
                 enable: true,
-                speed: 0.2,
+                speed: 2,
                 direction: "none",
                 random: true,
                 straight: false,
@@ -152,15 +152,13 @@
     goBackButton.addEventListener("click", hideContent);
 
     function showContent() {
-      document.getElementById("secondary-content").classList.remove("hide");
-      document.getElementById("secondary-content").classList.add("show");
+        document.getElementById("secondary-content").classList.remove("hide");
+        document.getElementById("secondary-content").classList.add("show");
     }
 
     function hideContent() {
-      document.getElementById("secondary-content").classList.remove("show");
-      document.getElementById("secondary-content").classList.add("hide");
+        document.getElementById("secondary-content").classList.remove("show");
+        document.getElementById("secondary-content").classList.add("hide");
     }
-
   </script>
-
 </html>
