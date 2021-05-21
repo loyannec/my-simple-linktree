@@ -15,7 +15,8 @@ li {
 }
 
 body {
-    background: linear-gradient(101.07deg, #2e3c87 7.93%, #6a1094 93.3%);
+    background: linear-gradient(101.07deg, #856CEF 7.93%, #FFC06B 93.3%);
+    /* background: linear-gradient(101.07deg, #856CEF 10.1%, #4AC2FF 20.2%, #FFC06B 30.3%, #FF3F6E 40.4%, #1F0F35 50.5%); */
     font-family: "Ubuntu", sans-serif;
     display: flex;
     justify-content: center;
@@ -30,7 +31,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #fff;
+    color: #1F0F35;
 }
 
 #particles-js {
@@ -55,7 +56,7 @@ body {
 
 .container .subtitle {
     font-size: 14px;
-    color: #e3e3e3;
+    color: #1F0F35;
 }
 
 .social-media-container {
@@ -82,7 +83,7 @@ body {
 }
 
 .social-media-container svg {
-    color: #9d46c6;
+    color: #856CEF;
 }
 
 .info-container {
